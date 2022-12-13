@@ -1,0 +1,86 @@
+*{
+    /* background-color: rgb(245, 141, 207); */
+    background-image: url(/src/bgc2.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}
+
+.header{
+    background-color: rgb(125, 189, 254);
+    height: 350px;
+    width: 400px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius:  20px ;
+    justify-content: stretch;
+    background-image: none;
+}
+.header-tittle{
+    column-rule-color: blue;
+    background-color: rgb(125, 189, 254);
+    margin: 0 auto;
+    padding: 30px 10px;
+    background-image: none;
+
+}
+.header-bmi{
+  display: flex; 
+  flex-direction: column ;
+  background-color: rgb(125, 189, 254);
+  background-image: none;
+
+}
+.header-bmi-label{
+    background-color: rgb(125, 189, 254);
+    margin: 0 auto;
+    background-image: none;
+    font-weight: 500;
+}
+.header-bmi-input{
+    background-color: rgb(125, 189, 254);
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 100px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-image: none;
+    padding-left: 50px;
+}
+.header-bmi-input:focus{
+    outline: none;
+}
+.header-bmi-btn{
+    background-color: rgb(125, 189, 254);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    background-color:rgb(239, 23, 160) ;
+    background-image: none;
+    color:white;
+    border: rgb(209, 177, 177) solid 2px;
+    font-family: Verdana;
+}
+.header-result{
+    background-color: rgb(125, 189, 254);
+    margin: 0 auto;
+    background-image: none;
+    margin-top: 10px;
+   font-size: larger;
+   font-weight: lighter;
+}
+.header-result-value{
+   
+    font-weight: 700;
+    background-image: none;
+    background-color: rgb(125, 189, 254);
+}
