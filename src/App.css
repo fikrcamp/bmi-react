@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{   
+     text-align: center;
+    padding-top: 14%;
+    height: 35vw;
+    width: 100%;
+
+}
+.child {
+    background-color: #354f52;
+    display: inline-block;
+    padding: 20px 100px;
+    border: 3px black solid;
+    border-radius: 30px;
+
+
+}
+
+.header {
+    background-color: #457b9d;
+    display: inline-block;
+    padding: 0px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #f2f2f2;
+}
+
+.label-height {
+    font-size: 20px;
+    color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+
+.label-height>input {
+    padding: 3px 25px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    outline: 1px solid black;
+    margin-left: 5px;
+
+}
+
+.label-weight {
+    font-size: 20px;
+    color: #f2f2f2;
+    font-family:  sans-serif;
+}
+
+.label-weight>input {
+    padding: 3px 25px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    outline: 1px solid black;
+    margin-left: 5px;
+    margin-top: 10px;
+
+}
+
+
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 14px;
+    border-radius: 15px;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+
+.btn>span {
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+
+.result {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.result>span {
+    font-family: cursive;
+    color: #f4a261;
+    font-style: italic;
+}
+
