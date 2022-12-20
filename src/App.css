@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(154, 240, 240);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+font-family:monospace;
+}
+.bmi{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 22rem;
+  padding: 20px;
+  background-color: rgb(68, 216, 216);
+  color: white;
+}
+
+.bmi > input{
+  margin: 10px;
+  padding: 5px;
+  width: 20rem;
+  background: transparent;
+  color: rgb(5, 42, 255);
+  
+  
+}
+::-webkit-input-placeholder {
+  color: white;
+  font-size: 15px;
+  font-family: monospace;
+}
+.bmi > button {
+  padding: 10px;
+  background-color: rgb(32, 80, 80);
+  border: 1px solid rgb(68, 216, 216) ;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  color: white;
+  font-family: monospace;
+}
+.bmi > label, h4{
+  font-size: 18px;
+}
